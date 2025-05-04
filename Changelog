@@ -1,0 +1,1659 @@
+Changelog/Patch Notes:
+
+v1.5 - Add Bonus Cars, Ultimate Mod Support, Muscle Car Downforce, Various Tweaks
+(dd/mm/yyyy)
+(04/05/2025)
+
+Scripts and Installation:
+
+- Added a new Installation Option "Completely Vanilla, Add Upgradeable Bonus Cars" [Attribulator + OGVI Only]
+	This gives all the tier 3 bonus cars upgradeable performance parts, 
+	and adds them to the car lot.
+
+- Added a new Installation Option "Completely Vanilla, Add Upgradeable Bonus Cars (With CS Unlock Conditions)" [Attribulator + OGVI Only]
+	This gives all the tier 3 bonus cars upgradeable performance parts, 
+	adds them to the car lot, and allows them to be unlocked through Challenge Series Events.
+
+
+- Added support for Ultimate Mod [Attribulator + OGVI Only]
+
+- New Optional Script: V8 Sound fix for Koenigsegg CCX when upgraded [Attribulator + OGVI Only]
+
+
+*Provided some extra clarification regarding MW shiftpattern Port.
+This is only required for Improvement Mod v2 users, as the C6R uses its shiftpattern from MW.
+
+
+
+Vanilla Cars:
+
+Exotics:
+
+BMW:
+M3 GTR (Race):
+*When Engine + Induction power is considered, 
+ the net result is an additional ~3.4% nerf to overall power output. 
+
+ Engine Max Upgraded:
+	Very, very slightly increased torque values
+	(This was only around a ~0.8% to ~1% increase)
+
+ Induction Max Upgraded:
+	Reduced HIGH_BOOST from 0.15 to 0.1
+	Reduced LOW_BOOST from 0.15 to 0.1
+
+Ford:
+
+Ford GT:
+ Engine Max Upgraded:
+	Increased Torque Values by 9% (from synchronised values, up from 8%)
+
+
+Mercedes-Benz/Mclaren:
+
+SLR:
+ Engine Max Upgraded:
+	Increased Torque values by 17% (From original values, up from 16%)
+
+Lamborghini:
+
+Murcielago LP-640:
+ Tires Max Upgraded:
+	Increased STATIC_GRIP Front from 2.35 to 2.375
+	Increased STATIC_GRIP Rear from 2.35 to 2.375
+	Increased GRIP_SCALE Rear from 1.1 to 1.11
+---------------------------------------------------------------------		
+Muscle Cars:
+
+Chevrolet:
+
+Camaro Concept:
+ Tires Max Upgraded:
+	Increased GRIP_SCALE Front from 1 to 1.02
+	Increased GRIP_SCALE Rear from 1 to 1.02
+
+Dodge:
+
+Challenger Concept:
+ Engine Max Upgraded:
+	Increased Torque Values by 12.5% (From original values, up from 11%) 
+
+ Suspension Max Upgraded:
+	Increased Increased AERO_COEFFICIENT from 0.2 to 0.225
+
+Viper:
+ Suspension Max Upgraded:
+	Increased Increased AERO_COEFFICIENT from 0.2 to 0.215
+
+ Tires Max Upgraded:
+	Reduced YAW_CONTROL[0] from 0.05 to 0
+	Reduced GRIP_SCALE Front from 1.02 to 1
+	Reduced GRIP_SCALE Rear from 1.02 to 1
+
+Plymouth:
+
+Hemi Cuda:
+ Suspension Max Upgraded:
+	Increased Increased AERO_COEFFICIENT from 0.2 to 0.22
+	Increased FRONT_WEIGHT_BIAS from 50 to 50.3
+
+ Tires Max Upgraded:
+	Reduced YAW_CONTROL[0] from 0.075 to 0.025
+	Reduced YAW_CONTROL[1] from 0.15 to 0.05
+	Reduced YAW_CONTROL[2] from 0.175 to 0.1
+	Reduced YAW_CONTROL[3] from 0.2 to 0.125
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.275 to 0.28
+	Increased LOW_BOOST from 0.275 to 0.28
+
+Shelby:
+
+GT 500 (1967):
+ Engine Max Upgraded:
+	Increased Torque values by 31% (From original values, up from 26%)
+
+ Suspension Max Upgraded:
+	Increased Increased AERO_COEFFICIENT from 0.19 to 0.21
+	Increased FRONT_WEIGHT_BIAS from 50 to 51
+
+ Induction Max Upgraded
+	Reduced HIGH_BOOST from 0.38 to 0.325
+	Reduced LOW_BOOST from 0.34 to 0.3
+
+GT 500 (2007):
+ Suspension Max Upgraded
+	Increased AERO_COEFFICIENT from 0.25 to 0.26
+	Increased FRONT_WEIGHT_BIAS from 50 to 53
+	Reduced AERO_CG from 50 to 48
+---------------------------------------------------------------------
+Tuners:
+
+Mitsubishi:
+
+Lancer Evolution 9 MR-Edition
+ Suspension Max Upgraded:
+	Increased AERO_COEFFICIENT from 0.265 to 0.275
+
+Nissan:
+
+350z Z33:
+ Transmission Max Upgraded:
+	Increased CLUTCH_SLIP from 0.8 to 0.835
+
+Skyline GTR R34:
+ Engine Max Upgraded:
+	Increased Torque values by 48% (From original values, up from 47.5%)
+
+Subaru:
+
+Impreza WRX ST-i (2006)
+ Suspension Max Upgraded:
+	Increased AERO_COEFFICIENT from 0.25 to 0.275
+
+ Tires Max Upgraded:
+	Increased DYNAMIC_GRIP (Front) from 2.05 to 2.1
+	Increased DYNAMIC_GRIP (Rear) from 2.05 to 2.1
+	Increased STATIC_GRIP (Front) from 2.25 to 2.35
+	Increased STATIC_GRIP (Rear) from 2.3 to 2.4
+
+Toyota:
+
+Supra:
+ Engine Max Upgraded:
+	Increased torque values by 3%
+---------------------------------------------------------------------
+Improvement Mod v2 Cars:
+
+Exotics:
+
+Audi:
+
+R8 4.2 FSI quattro (Improvement Mod v2):
+ Induction (Stock and Upgraded)
+	Reduced SPOOL from 0.2 to 0
+
+BMW:
+
+M3 CSL (Improvement Mod v2):
+ Engine Max Upgraded.
+	Now shares torque values with the M3 GTR Street.
+
+ Suspension Max Upgraded:
+	Increased Drag Coefficient from 0.3 to 0.32
+
+ Tires Max Upgraded:
+	Reduced YAW_SPEED from 0.29 to 0.25
+
+ Induction Max Upgraded:
+	Reduced HIGH_BOOST from 0.35 to 0.2
+	Reduced LOW_BOOST from 0.375 to 0.2
+
+
+M3 GTR (Street) (Improvement Mod v2):
+ Tires Max Upgraded:
+	Increased STATIC_GRIP Front from 2.15 to 2.2
+	Increased STATIC_GRIP Rear from 2.2 to 2.3
+
+ Induction Max Upgraded:
+	Reduced HIGH_BOOST from 0.183 to 0.15
+	Reduced LOW_BOOST from 0.183 to 0.15
+
+
+Porsche:
+
+911 GT2 (996) (Improvement Mod v2)
+ Tires Max Upgraded:
+	Increased STATIC_GRIP Front from 2.2 to 2.25
+	Increased STATIC_GRIP Rear from 2.2 to 2.25
+---------------------------------------------------------------------
+Muscle Cars:
+
+Chevrolet:
+
+Corvette C6 + Cross Variants (Improvement Mod v2 only):
+ Suspension Max Upgraded:
+	Increased AERO_COEFFICIENT from 0.26 to 0.27
+
+
+Corvette C6R:
+ Induction Max Upgraded:
+	Reduced LOW_BOOST from 0.3 to 0.25
+
+
+Player Police Corvette Z06/Undercover Corvette Z06 (Improvement Mod v2 Only):
+ Reworked these cars to be more like how they are in the vanilla game, instead of a Z06 clone.
+ 
+ Mass (kg):
+ Increased Mass from 1420 to 1520, to match the value in the vanilla game
+
+ Engine (Stock and Max Upgraded):
+	Reduced RED_LINE from 7000 to 6000
+	Reduced MAX_RPM from 8000 to 7000
+	Stock engine now uses torque values from stock Viper Engine
+	Max Upgraded engine now uses torque values from Max Upgraded Viper Engine (viper_top)
+
+ Suspension (Stock and Max Upgraded):
+	Increased DRAG_COEFFICIENT from 0.32 to 0.42
+	(this was done for at least some level of balance)
+---------------------------------------------------------------------
+Tuners:
+
+Mitsubishi:
+
+Lancer Evolution 8 (Improvement Mod v2):
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.3 to 0.33
+	Increased LOW_BOOST from 0.2 to 0.22
+
+Subaru:
+
+Impreza WRX ST-i (2004) (Improvement Mod v2):
+ Tires Max Upgraded:
+	Reduced DYNAMIC_GRIP Front from 2.05 to 2
+	Reduced DYNAMIC_GRIP Rear from 2.05 to 2
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.2 to 0.22
+	Increased LOW_BOOST from 0.3 to 0.33
+--------------------------------------------------------------------
+Ultimate Mod Cars:
+
+Exotics:
+
+Chevrolet:
+
+Corvette C6.R (Ultimate Mod Version):
+ Stock Engine:
+	Increased Torque values by 34%
+
+ Stock Tires:
+	Increased GRIP_SCALE Front from 1.02 to 1.05
+	Increased GRIP_SCALE Rear from 1.03 to 1.075
+
+
+Koeniggggsenisseggsegnignigsegigiseg:
+
+CCX (Ultimate Mod Version Only):
+ Engine Max Upgraded:
+	Increased Torque values by 17%
+ 
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.38 to 0.28
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.185 to 0.2
+	Increased LOW_BOOST from 0.185 to 0.2
+---------------------------------------------------------------------	
+Muscle Cars:
+
+Dodge:
+
+Challenger Concept (Ultimate Mod Version Only):
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.45 to 0.44
+
+ Tires Max Upgraded:
+	Increased GRIP_SCALE Front from 1.025 to 1.035
+	Increased GRIP_SCALE Rear from 1.025 to 1.035
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.325 to 0.35
+	Increased LOW_BOOST from 0.325 to 0.35
+---------------------------------------------------------------------	
+Tuners:
+
+Acura:
+
+NSX (Ultimate Mod):
+ Engine Max Upgraded:
+	Increased Torque Values by 22%
+
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.4 to 0.36
+
+ Tires Max Upgraded:
+	Increased GRIP_SCALE Front from 1.01 to 1.05	
+	Increased GRIP_SCALE Rear from 1.01 to 1.05	
+
+
+Mitsubishi:
+
+Lancer Evolution X (Ultimate Mod)
+ Engine Max Upgraded:
+	Increased Torque Values by 12%
+
+ Transmission Max Upgraded:
+	Reduced FINAL_GEAR from 3.93 to 3.63
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.235 to 0.315
+	Increased LOW_BOOST from 0.235 to 0.315
+
+
+Nissan:
+
+GTR R35 (Ultimate Mod)
+ Engine Max Upgraded:
+	Increased Torque values by 25%
+ 
+ Transmission Max Upgraded:
+	Reduced FINAL_GEAR from 3.34 to 2.84
+
+ Tires Max Upgraded:
+	Increased STATIC_GRIP Front from 2.275 to 2.325
+	Increased STATIC_GRIP Rear from 2.3 to 2.35
+---------------------------------------------------------------------
+v1.4.2 - Lancer Evolution 8 Adjustments.
+(dd/mm/yyyy)
+(15/02/2025)
+
+Tuners:
+
+Mitsubishi:
+
+Lancer Evolution 8 (Improvement Mod v2 only):
+ Tires Max Upgraded:
+	Increased GRIP_SCALE Front from 1.05 to 1.15
+	Increased GRIP_SCALE Rear from 1.075 to 1.175
+---------------------------------------------------------------------
+v1.4.101 - Hotfix for VltEd Installer.
+(dd/mm/yyyy)
+(14/02/2025)
+
+Muscle Cars:
+
+Corvette C6R (Improvement Mod v2 only) (VltEd Only)
+ pvehicle :
+	Fixed intended ShiftSND changes for "pvehicle corvettec6r ShiftSND[2]" not going through.
+	Removing it, then Re-Adding the field in a separate script, fixes it for some reason??
+
+	Changed Intended shiftpattern from exotic_auto_2 to exotic_auto, 
+	as it's even closer to the MW shiftpattern used in the OGVI version.
+---------------------------------------------------------------------
+v1.4.1 - Challenger Concept Buff, Tuner and Exotic Re-Balancing.
+(dd/mm/yyyy)
+(13/02/2025)
+
+Exotics:
+
+BMW:
+
+M3 GTR (Race)
+Even with it's 'weaker' engine, the Carbon M3 GTR still has a better Power/Weight ratio
+than it's MW counterpart, along with having better handling.
+The MW version also didn't have induction upgrades by default 
+(induction nodes do exist for M3 GTR Race, but is unused in the vanilla game)
+Taking everything into account, It's still faster than the MW version. 
+I MIGHT further reduce its Boost values in the future, 
+but I'm only doing small, incremental changes for now.
+
+Why such a massive disclaimer for such a small change??????
+Well, while it is a legendary car IRL, it has, to put it kindly,
+a very "interesting and passionate" fanbase.
+
+ Induction Max Upgraded:
+	Reduced HIGH_BOOST from 0.2 to 0.15
+	Reduced LOW_BOOST from 0.2 to 0.15
+
+
+M3 GTR Street (Improvement Mod V2 Only) 
+ Induction Max Upgraded:
+	Reduced HIGH_BOOST from 0.2 to 0.183
+	Reduced LOW_BOOST from 0.2 to 0.183
+
+ Tires Max Upgraded:
+	Reduced YAW_SPEED from 0.255 to 0.25	
+
+
+Koeniggggsenisseggsegnignigsegigiseg:
+
+CCX:
+ Engine Max Upgraded:
+	Reduced Torque from 1.075x to 1.04x of original values
+
+
+Pagani:
+
+Zonda F:
+ Engine Max Upgraded:
+	Reduced Torque Vales from 1.1x to 1.08x of original values
+
+ Induction Max Upgraded:
+	Reduced LOW_BOOST from 1.16 to 1.15
+
+
+Porsche:
+
+911 GT3 RS:
+	Reduced Torque Vales from 1.125x to 1.11x of original values.
+
+
+Lamborghini:
+
+Gallardo:
+ Tires Max Upgraded:
+	Increased STEERING from 0.8 to 0.85
+
+Murcielago:
+ Tires Max Upgraded:
+	Increased STEERING from 0.9 to 0.925
+---------------------------------------------------------------------
+Muscle Cars:
+
+Chevrolet:
+Corvette C6R (Improvement Mod v2 Only):
+ Transmission:
+	Changed Stock shiftpattern from exotic to muscle_1
+	Changed Pro Package shiftpattern from exotic_1 to muscle_2
+	
+ Transmission Max Upgraded:
+	(OGVI Only)
+	Changed shiftpattern from exotic_2 to "0x2E59BBFA" (C6R shiftpattern from MW)
+
+	(VltEd Only)
+	Changed shiftpattern from exotic_2 to exotic_auto_2, as it's the closest one.
+ 
+Suspension Max Upgraded:
+	Increased DRAG_COEFFICIENT from 0.33 to 0.35
+
+
+Dodge:
+
+Challenger Concept:
+ Engine Max Upgraded:
+	Increased Torque values by 11% (from original values, up from 10%)
+---------------------------------------------------------------------
+Tuners:
+
+Mitsubishi:
+
+Lancer Evolution 8 (Improvement Mod v2 only):
+ Suspension Max Upgraded:
+	Increased DRAG_COEFFICIENT from 0.38 to 0.39
+
+
+Lancer Evolution IX MR-edition:
+ Suspension Max Upgraded:
+	Increased DRAG_COEFFICIENT from 0.38 to 0.39
+
+
+Nissan:
+
+240sx S13 (Tier 3 Optional Script Only)
+ Tires Max Upgraded:
+	Reduced GRIP_SCALE Front and Rear from 1.11 to 1.1
+
+350z Z33:
+ Suspension Max Upgraded:
+	Increased DRAG_COEFFICIENT from 0.39 to 0.4
+
+Skyline GTR R34:
+ Engine Max Upgraded:
+	Reverted Torque changes from v1.4
+	(Reduced Torque values from 1.4875x to 1.475x of original values)
+
+
+Subaru:
+
+Impreza WRX STI 2004 (Improvement Mod v2 only):
+ Suspension Max Upgraded:
+	Increased DRAG_COEFFICIENT from 0.38 to 0.39
+
+Impreza WRX STI 2006:
+ Suspension Max Upgraded:
+	Increased DRAG_COEFFICIENT from 0.38 to 0.39
+
+
+Toyota:
+
+Supra:
+ Engine Max Upgraded
+	Reverted Torque changes from v1.4
+	(Once again uses torque values from MW's Supra)
+---------------------------------------------------------------------
+v1.4 - New Optional Script, Various Adjustments, MW Shiftpattern Port.
+(dd/mm/yyyy)
+(10/02/2025)
+
+Exotics:
+
+Pagani:
+
+Zonda F:
+ Induction Max Upgraded:
+	Increased LOW_BOOST from 1.15 to 1.16
+
+Porsche:
+
+911 GT3RS:
+ Engine Max Upgraded:
+	Increased Torque Values by 12.5% (From original values, up from 10%)
+---------------------------------------------------------------------
+Muscle Cars:
+
+Chevrolet:
+
+Camaro Concept:
+ Tires Max Upgraded:
+	Increased STATIC_GRIP Front from 1.9 to 1.915
+	Increased STATIC_GRIP Rear from 2 to 2.015
+	
+Corvette C6R (Improvement Mod v2 Only):
+ Suspension Max Upgraded:
+	Increased DRAG_COEFFICIENT from 0.3 to 0.33
+	(Original value is 0.35, so it's still slightly better)
+
+
+Dodge:
+
+Challenger Concept:
+ Engine Max Upgraded:
+	Increased Torque values by 10% (from original values, up from 8%)
+
+ Suspension Max Upgraded:
+	Increased DRAG_COEFFICIENT from 0.45 to 0.5
+
+
+Viper SRT-10:
+ Tires Max Upgraded:
+	Increased GRIP_SCALE Front from 1 to 1.02
+	Increased GRIP_SCALE Rear from 1 to 1.02
+
+
+Plymouth:
+
+Hemi 'Cuda:
+ Suspension Max Upgraded:
+	Increased DRAG_COEFFICIENT from 0.44 to 0.45
+
+ Tires Max Upgraded:
+	Reduced YAW_CONTROL[0] from 0.1 to 0.075
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.25 to 0.275
+	Increased LOW_BOOST from 0.25 to 0.275
+
+
+Shelby:
+
+GT500 (1967):
+ Tires Max Upgraded:
+	Increased STATIC_GRIP Front from 1.925 to 1.935
+	Increased STATIC_GRIP Rear from 2.025 to 2.035
+---------------------------------------------------------------------
+Tuners:
+
+Infiniti:
+
+G35:
+ Engine Max Upgraded:
+	Increased Torque values by 62.5% (From original values, up from 60%)
+
+ Tires Max Upgraded:
+	Reduced STEERING from 1.1 to 1.05
+	Reduced YAW_SPEED from 0.3 to 0.28
+
+Mitsubishi:
+
+Lancer Evolution 8 (Improvement Mod v2 only):
+ Engine Max Upgraded:
+	Ported over MW torque values
+	Reduced RED_LINE from 7550 to 7000
+	Reduced MAX_RPM from 8550 to 8000
+	
+ Suspension Max Upgraded:
+	Increased DRAG_COEFFICIENT from 0.36 to 0.38
+
+ Tires Max Upgraded:
+	Reduced GRIP_SCALE Front from 1.2 to 1.05
+	Reduced GRIP_SCALE Rear from 1.2 to 1.075
+	Reduced STEERING from 1.1 to 1
+
+ Induction Max Upgraded:
+	Reduced HIGH_BOOST from 0.4 to 0.3
+	Reduced LOW_BOOST from 0.33 to 0.2
+
+
+Lancer Evolution IX MR-edition:
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.39 to 0.38
+
+
+Nissan:
+
+240sx S13 (Tier 3 Optional Script Only) (OGVI Only)
+(If you don't select the optional script, these changes do not apply)
+
+ Frontend:
+	Increased Cost from $20,000 to $50,000
+
+ Engine Max Upgraded:
+	Uses Torque values ported over from MW's "cobaltss_top"
+	Reduced FLYWHEEL_MASS from 12.5 to 9.25
+
+ Transmission Max Upgraded:
+	Uses shiftpattern from MW "0x9FF448ED"
+	Reduced FINAL_GEAR FROM 3.6 TO 3.1
+	
+ Suspension Max Upgraded:
+	Increased AERO_COEFFICIENT from 0.2325 to 0.2375
+	Increased SWAYBAR_STIFFNESS Front 300 to 315
+	Increased SWAYBAR_STIFFNESS Rear 300 to 315
+	Reduced SHOCK_DIGRESSION Front from 0.3 to 0.24
+	Reduced SHOCK_DIGRESSION Rear from 0.3 to 0.24
+	Reduced ROLL_CENTER from 10 to 9
+
+ Tires Max Upgraded:
+	Increased GRIP_SCALE Front from 1.1 to 1.11
+	Increased GRIP_SCALE Rear from 1.1 to 1.11
+
+ Brakes Max Upgraded"
+	Increased Front Brake Power from 500 to 575
+	Increased Rear Brake Power from 550 to 625
+	Increased E-Brake Power from 700 to 775
+
+350z Z33:
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.44 to 0.39
+
+
+Skyline GTR R34:
+ Engine Max Upgraded:
+	Increased Torque values by 48.75% (From original values, up from 47.5%)
+
+ Suspension Max Upgraded:
+	Reduced STEERING from 1.12 to 1.1
+	
+
+Subaru: 
+
+Impreza WRX STI 2004 (Improvement Mod v2 only):
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.39 to 0.38
+
+ Tires Max Upgraded:
+	Increased DYNAMIC_GRIP Front from 1.9 to 2.05
+	Increased DYNAMIC_GRIP Rear from 1.9 to 2.05
+	Increased STATIC_GRIP Front from 2.15 to 2.25
+	Increased STATIC_GRIP Rear from 2.2 to 2.3
+
+
+Impreza WRX STI 2006:
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.39 to 0.38
+
+Toyota:
+
+Supra:
+ Engine Max Upgraded:
+	Increased Torque values by 2%
+---------------------------------------------------------------------
+v1.3 - Muscle Car Handling, Gear Efficiency clean-up, Small Tuner Buffs.
+(dd/mm/yyyy)
+(02/02/2025)
+
+Exotics:
+
+Ford:
+
+GT:
+ Engine Max Upgraded:	
+	Increased Torque values by 8%
+
+ Transmission Max Upgraded:
+	Increased GEAR_EFFICIENCY[2] from 0.82 to 1
+	Increased GEAR_EFFICIENCY[3] from 0.8 to 1
+
+ Induction Max Upgraded:
+	Reduced HIGH_BOOST from 0.4 to 0.3
+	Reduced LOW_BOOST from 0.4 to 0.3
+
+
+Lamborghini: 
+
+Murcielago LP640:
+ Transmission Max Upgraded:
+	Increased GEAR_EFFICIENCY[2] from 0.97 to 1
+
+Mercedes-Benz/McLaren:
+ 
+SLR:
+ Transmission Max Upgraded:
+	Increased GEAR_EFFICIENCY[2] from 0.95 to 1
+	Increased GEAR_EFFICIENCY[3] from 0.8 to 1
+---------------------------------------------------------------------
+Muscle Cars:
+
+Chevrolet:
+ 
+Camaro Concept:
+ Tires Max Upgraded:
+	Increased STATIC_GRIP Front from 1.8 to 1.9
+	Increased STATIC_GRIP Rear from 1.9 to 2
+	Increased YAW_CONTROL[0] from 0 to 0.1
+	Increased YAW_CONTROL[1] from 0 to 0.215
+	Increased YAW_CONTROL[2] from 0 to 0.465
+	Increased YAW_CONTROL[3] from 0 to 0.565
+
+Dodge:
+
+Challenger Concept:
+	Increased STATIC_GRIP Front from 1.9 to 1.975
+	Increased STATIC_GRIP Rear from 1.9 to 1.975
+
+
+Viper SRT-10:
+ Engine Max Upgraded:
+	Reverted Torque Increase from v1.0 Initial Release
+	(Now uses vanilla torque values)
+
+Tires Max Upgraded:
+	Increased DYNAMIC_GRIP Front from 1.7 to 1.9
+	Increased DYNAMIC_GRIP Rear from 1.7 to 1.95
+	Increased STATIC_GRIP Front from 2 to 2.1
+	Increased STATIC_GRIP Rear from 2 to 2.15
+	Increased YAW_CONTROL[0] from 0 to 0.05
+	
+Plymouth: 
+
+Hemi 'Cuda:
+ Tires Max Upgraded:
+	Increased DYNAMIC_GRIP Front from 1.7 to 1.8
+	Increased DYNAMIC_GRIP Rear from 1.8 to 1.9
+	Increased STATIC_GRIP Front from 1.9 to 2
+	Increased STATIC_GRIP Rear from 2.1 to 2.2
+	Tire Upgrades no longer Harm YAW_CONTROL Values
+	Increased YAW_CONTROL[0] from 0.025 to 0.1
+	Increased YAW_CONTROL[1] from 0.05 to 0.15
+	Increased YAW_CONTROL[2] from 0.1 to 0.175
+	Increased YAW_CONTROL[3] from 0.1 to 0.2
+
+Shelby:
+
+GT500 (1967):
+ Tires Max Upgraded:
+	Increased DYNAMIC_GRIP Front from 1.6 to 1.725
+	Increased DYNAMIC_GRIP Rear from 1.6 to 1.725
+	Increased STATIC_GRIP Front from 1.8 to 1.925
+	Increased STATIC_GRIP Rear from 1.9 to 2.025
+
+GT500 (2006):
+ Engine Max Upgraded:
+	Increased upgraded engine torque values by 15% (from original values, down from 19%)
+	(this is a slight nerf to torque vales, but is still more powerful than the vanilla engine)
+ 
+ Tires Max Upgraded:
+	Increased DYNAMIC_GRIP Front from 1.5 to 1.9
+	Increased DYNAMIC_GRIP Rear from 1.65 to 1.9
+	Increased STATIC_GRIP Front from 1.7 to 2.1
+	Increased STATIC_GRIP Rear from 1.85 to 2.1
+	Tire Upgrades no longer Harm YAW_CONTROL Values
+	Increased YAW_CONTROL[0] from 0 to 0.1
+	Increased YAW_CONTROL[1] from 0.1 to 0.2
+	Increased YAW_CONTROL[2] from 0.2 to 0.3
+	Increased YAW_CONTROL[3] from 0.3 to 0.4
+---------------------------------------------------------------------	
+Tuners:
+
+Mitsubishi:
+
+Lancer Evolution IX MR-edition: 
+ Tires Max Upgraded:
+	Increased YAW_SPEED from 0.3 to 0.31
+
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.4 to 0.39
+
+
+Nissan:
+
+350z Z33:
+ Engine Max Upgraded:
+	Increased Torque values by 45% (From original values, up from 40%)
+
+
+Subaru:
+
+Impreza WRX STi (2006):
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.44 to 0.39
+	Increased SWAYBAR_STIFFNESS Front from 350 to 360
+	Increased SWAYBAR_STIFFNESS Rear from 350 to 360 
+
+
+Toyota: 
+
+Supra:
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.325 to 0.35
+---------------------------------------------------------------------
+Improvement Mod v2 Cars:
+
+Exotics:
+
+BMW: 
+
+M3 CSL:
+ Engine Max Upgraded:
+	Increased Torque values by 33.5% (From original values, up from 30%)
+ 
+ Induction Max Upgraded:
+	Increased LOW_BOOST from 0.35 to 0.375
+
+
+Porsche:
+
+911 Carrera S (997):
+
+ Transmission Max Upgraded:
+	Increased GEAR_EFFICIENCY[2] from 0.9 to 1
+---------------------------------------------------------------------
+Muscle Cars:
+
+Chevrolet:
+
+Corvette C6R:
+ Transmission Max Upgraded:
+	Increased GEAR_EFFICIENCY[2] from 0.9 to 1
+---------------------------------------------------------------------
+Tuners:
+
+Mitsubishi:
+
+Lancer Evolution 8: 
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.39 to 0.36
+
+Subaru: 
+
+Impreza WRX STI (2004):
+ Engine Max Upgraded:
+	Ported over MW Torque Values
+	Reduced RED_LINE from 7450 to 7000
+	Reduced MAX_RPM from 8450 to 8000
+ 
+ Tires Max Upgraded:
+	Reverted Dynamic Grip and Static Grip changes in v1.0 Initial Release, to match MW values.
+	Reduced DYNAMIC_GRIP Front from 2.05 to 1.9
+	Reduced DYNAMIC_GRIP Rear from 2.05 to 1.9
+	Reduced STATIC_GRIP Front from 2.25 to 2.15
+	Reduced STATIC_GRIP Rear from 2.3 to 2.2
+	
+ Suspension Max Upgraded:
+	Ported over additional MW chassis data
+	Increased SHOCK_EXT_STIFFNESS Front from 70 to 80
+	Increased SWAYBAR_STIFFNESS Front from 350 to 400
+	Increased SWAYBAR_STIFFNESS Rear from 350 to 400
+
+ Brakes Max Upgraded:
+	Reduced Front Brake Power from 590 to 550
+	Reduced Rear Brake Power from 690 to 650
+	Reduced E-Brake Power from 890 to 850
+
+ Induction Max Upgraded:
+	Reduced HIGH_BOOST from 0.3 to 0.2
+	Reduced LOW_BOOST from 0.375 to 0.3
+---------------------------------------------------------------------
+v1.2.1 - Additional small buffs, G35 Tier 2 optional script.
+(dd/mm/yyyy)
+(12/01/2025)
+
+This very small update includes:
+- Additional very small buffs to some Tuners.
+- New Optional Script:
+	Give the Infiniti G35 its completely vanilla stats, but makes it a Tier 2 Car.
+	(once again, entirely optional. Don't want this change? just leave it unchecked)
+
+Tuners:
+
+Nissan:
+
+350z Z33:
+ Engine Max Upgraded:
+	Increased Torque values by 40% (From original values, up from 37.5%)
+
+Subaru:
+
+Impreza WRX STi (2006):
+ Induction Max Upgraded:
+	Increased LOW_BOOST from 0.225 to 0.25
+---------------------------------------------------------------------
+v1.2 - Small buffs to Exotics, Tuner and SLR Adjustments.
+(dd/mm/yyyy)
+(09/01/2025)
+
+This update includes:
+- Small buffs to Exotics.
+- Small buffs to Tuner performance.
+- Reverts Tuner YAW_SPEED changes made in v1.1 (for 350z, Impreza 2006, Lancer Evo 9 and Supra)
+	They're now slightly faster, and don't feel twitchy anymore.
+
+Exotics:
+
+Ford:
+
+GT:
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.38 to 0.4
+	Increased LOW_BOOST from 0.38 to 0.4
+
+
+Lamborghini: 
+
+Gallardo:
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.34 to 0.31 
+
+ Tires Max Upgraded:
+	Tire upgrades no longer harm YAW_CONTROL Values
+	(YAW_CONTROL values now match the stock tires)
+
+
+Murcielago:
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.35 to 0.33 
+
+
+Murcielago LP640:
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.37 to 0.35 
+
+
+Mercedes-Benz/McLaren:
+ 
+SLR:
+ Engine Max Upgraded:
+	Increased Torque values by 16%
+
+ Induction Max Upgraded:
+	Reduced HIGH_BOOST from 0.43 to 0.33
+	Reduced LOW_BOOST from 0.35 to 0.25
+
+
+Porsche: 
+
+911 GT3 RS: 
+ Engine Max Upgraded:
+	Increased Torque values by 10% (From original values, up from 6%)
+
+
+911 Turbo (997):
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.33 to 0.34
+	Increased LOW_BOOST from 0.33 to 0.34
+---------------------------------------------------------------------
+Tuners:
+
+Mitsubishi:
+
+Lancer Evolution IX MR-edition: 
+ Tires Max Upgraded:
+	Reverted YAW_SPEED changes made in v1.1
+	(Reduced YAW_SPEED from 0.325 to 0.3)
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.2 to 0.3
+	Increased LOW_BOOST from 0.2 to 0.25
+
+
+Nissan:
+
+350z Z33:
+ Engine Max Upgraded:
+	Increased Torque values by 37.5% (From original values, up from 28%)
+
+ Tires Max Upgraded:
+	Reverted YAW_SPEED changes made in v1.1
+	(Reduced YAW_SPEED from 0.38 to 0.35) 
+
+
+Subaru: 
+
+Impreza WRX STi (2006):
+ Tires Max Upgraded:
+	Reverted YAW_SPEED changes made in v1.1
+	(Reduced YAW_SPEED from 0.425 to 0.4) 
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.15 to 0.25
+	Increased LOW_BOOST from 0.15 to 0.225
+
+
+Toyota: 
+
+Supra:
+ Tires Max Upgraded:
+	Reverted YAW_SPEED changes made in v1.1
+	(Reduced YAW_SPEED from 0.31 to 0.3) 
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.3 to 0.325
+	Increased LOW_BOOST from 0.25 to 0.275
+---------------------------------------------------------------------
+Improvement Mod v2 Cars:
+
+Exotics:
+
+Porsche: 
+
+911 Carrera S (997):
+ Tires Max Upgraded:
+	Increased YAW_SPEED from 0.525 to 0.575
+
+911 GT2 (996):
+ Engine Max Upgraded:
+	Increased torque values by 34% (from original values, up from 33%)
+
+
+911 Turbo S (996):
+ Induction Max Upgraded:
+	Increased HIGH_BOOST From 0.275 to 0.3
+	Increased LOW_BOOST From 0.375 to 0.4
+---------------------------------------------------------------------
+Muscle Cars:
+
+Chevrolet: 
+
+Corvette C6R:
+ Transmission Max Upgraded:
+	Reverted Shift Time changes
+	(Increased SHIFT_SPEED from 0.2 to 0.25)
+---------------------------------------------------------------------
+Tuners:
+
+Mitsubishi:
+
+Lancer Evolution 8: 
+ Engine Max Upgraded: 
+	Increased RED_LINE from 7500 to 7550
+	Increased MAX_RPM from 8500 to 8550
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.375 to 0.4
+	Increased LOW_BOOST from 0.3 to 0.33
+
+
+Subaru: 
+
+Impreza WRX STI (2004):
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.25 to 0.3
+	Increased LOW_BOOST from 0.35 to 0.375
+---------------------------------------------------------------------
+
+v1.1 - Small Tuner Buffs, M3 GTR Street Rework.
+(dd/mm/yyyy)
+(02/01/2025)
+
+
+Tuners:
+
+Infiniti:
+
+G35:
+ Tires Max Upgraded:
+	Increased YAW_SPEED from 0.28 to 0.3
+
+
+Mitsubishi:
+
+Lancer Evolution IX MR-edition: 
+ Tires Max Upgraded:
+	Increased YAW_SPEED from 0.3 to 0.325
+
+
+Nissan:
+
+350z Z33:
+ Tires Max Upgraded:
+	Increased YAW_SPEED from 0.35 to 0.38
+
+
+Subaru: 
+
+Impreza WRX STi (2006):
+ Tires Max Upgraded:
+	Increased YAW_SPEED from 0.4 to 0.425
+
+Toyota: 
+
+Supra:
+ Tires Max Upgraded:
+	Increased YAW_SPEED from 0.3 to 0.31
+---------------------------------------------------------------------
+Improvement Mod v2 Cars:
+
+Exotics:
+
+BMW:
+
+M3 CSL:
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.3 to 0.35
+
+
+M3 GTR (Street):
+
+*The Street version technically having more engine power than the Race version may seem a bit cursed, forbidden even,
+ But the Power/Weight ratio still works out slightly in favour of the Race version.
+ Street version weighs 1,350kg, Race version (Carbon) weighs 1,100kg.
+ 
+ Engine Max Upgraded:
+	Now uses torque values from M3 GTR (Race) from MW
+
+ Suspension Max Upgraded:
+	(Increased DRAG_COEFFICIENT from 0.3 to 0.32)
+
+ Tires Max Upgraded:
+	Reduced YAW_SPEED from 0.26 to 0.255
+
+ Induction Max Upgraded:
+	Reduced HIGH_BOOST from 0.3 to 0.2
+	Reduced LOW_BOOST from 0.3 to 0.2
+---------------------------------------------------------------------
+Tuners:
+
+Mitsubishi:
+
+Lancer Evolution 8: 
+ Tires Max Upgraded:
+	Increased YAW_SPEED from 0.6 to 0.7 
+
+ Induction Max Upgraded:
+	Increased LOW_BOOST from 0.275 to 0.3
+
+
+Subaru: 
+
+Impreza WRX STI (2004):
+ Tires Max Upgraded:
+	Increased YAW_SPEED from 0.42 to 0.425
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.225 to 0.25
+	Increased LOW_BOOST from 0.25 to 0.35
+---------------------------------------------------------------------
+v1.0 - Initial Release
+
+Exotics:
+
+BMW:
+
+M3 GTR (Race):
+ Engine Max Upgraded:
+	Engine Torque values are a 50/50 mix of the Carbon and MW values. 
+	
+*Straight up Porting the MW engine torque values was, fun, but not exactly fair.
+ The Carbon version weighs 200kg less than the MW counterpart (1100kg for C, 1300kg for MW), has access to induction upgrades and has better handling.
+
+*there are already mods that port the MW M3 GTR Performance over to Carbon, if that's what you want.
+
+
+Ford:
+
+GT:
+ Engine Max Upgraded:
+	Ported Over and synchronised MW Engine Data
+
+ Suspension Max Upgraded:
+	Suspension upgrades no longer harm acceleration and top speed
+	(Reduced Drag DRAG_COEFFICIENT from 0.38 to 0.3, to match stock value)
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.25 to 0.38
+	Increased LOW_BOOST from 0.25 to 0.38
+
+
+Koeniggggsenisseggsegnignigsegigiseg: 
+
+CCX:
+ Engine Max Upgraded: 
+	Increased torque values by 7.5%
+
+ Suspension Max Upgraded:
+	Suspension upgrades no longer harm acceleration and top speed
+	(Reduced DRAG_COEFFICIENT from 0.29 to 0.28, to match stock value)
+
+ Induction: 
+	Reduced SPOOL value from 0.2 to 0 for both stock and upgraded.
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.15 to 0.2 
+	Increased LOW_BOOST from 0.15 to 0.2 
+	
+ 
+
+Lamborghini: 
+
+Gallardo:
+ Engine Max Upgraded:
+	Ported Over MW Engine Data.
+
+ Transmission Max Upgraded:
+	Ported over MW Transmission Data.
+
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.4 to 0.34
+
+ Tires Max Upgraded:
+	Increased YAW_SPEED from 0.285 to 0.385 
+
+ Induction Max Upgraded:
+	Ported over MW Induction Data.
+
+
+Murcielago:
+ Engine Max Upgraded:
+	Ported Over MW Engine Data
+
+ Transmission Max Upgraded:
+	Ported Over MW Transmission Data
+
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.37 to 0.35
+
+ Induction Max Upgraded:
+	Ported over MW Induction Data.
+	(Increased HIGH_BOOST from 0.2 to 0.3)
+	(Increased LOW_BOOST from 0.2 to 0.25)
+
+
+Murcielago LP640:
+ Engine Max Upgraded:
+	Increased Torque Values by 10%
+
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.38 to 0.37
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.1 to 0.25
+	Increased LOW_BOOST from 0.1 to 0.2 
+
+
+Mercedes-Benz/McLaren:
+ 
+SLR:
+ Suspension Max Upgraded:
+	Suspension upgrades no longer harm acceleration and top speed
+	(Reduced Drag Coefficient from 0.44 to 0.4, to match stock value)
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.33 to 0.43
+	Increased LOW_BOOST from 0.25 to 0.35
+
+
+Pagani:
+
+Zonda F:
+ Engine Max Upgraded:
+	Increased torque values by 10%
+
+ Suspension Max Upgraded:
+	Suspension upgrades no longer harm acceleration and top speed
+	(Reduced DRAG_COEFFICIENT from 0.3 to 0.285, to match stock value)
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.15 to 0.175
+
+
+Porsche: 
+
+911 GT3 RS: 
+ Engine Max Upgraded:
+	Increased torque values by 6%
+
+
+911 Turbo (997):
+ Engine Max Upgraded:
+	Increased torque values by 15%
+
+ Induction Max Upgraded:
+ 	Increased HIGH_BOOST from 0.27 to 0.33
+	Increased LOW_BOOST from 0.27 to 0.33
+
+
+Carrera GT:
+ Engine Max Upgraded:
+	Ported Over MW Engine Data
+
+ Transmission Max Upgraded:
+	Ported over MW Transmission Data
+
+ Induction Max Upgraded:
+	Reduced HIGH_BOOST from 0.15 to 0.1
+
+---------------------------------------------------------------------
+
+Muscle Cars:
+
+Chevrolet:
+ 
+Camaro Concept:
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.15 to 0.225
+	Increased LOW_BOOST from 0.15 to 0.225
+
+Dodge:
+
+Challenger Concept:
+ Engine Max Upgraded:
+	Increased Torque Values by 8%
+
+ Suspension Max Upgraded:
+	Suspension upgrades no longer harm acceleration and top speed
+	(Reduced DRAG_COEFFICIENT from 0.5 to 0.45, to match stock value)
+
+
+Viper SRT-10:
+ Engine Max Upgraded:
+	Increased Torque values by 5%
+
+
+
+Plymouth: 
+
+Hemi 'Cuda:
+ Engine Max Upgraded:
+	Increased torque values by 25%
+
+ Suspension Max Upgraded:
+	Reduced DRAG_COEFFICIENT from 0.45 to 0.44
+	
+
+Shelby:
+
+GT500 (1967):
+ Engine Max Upgraded:
+	Increased upgraded engine torque values by 26%
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.3 to 0.38
+	Increased LOW_BOOST from 0.3 to 0.34
+
+
+GT500 (2006):
+ Engine Max Upgraded:
+	Increased upgraded engine torque values by 19%
+	
+ Suspension Max Upgraded:
+	Suspension upgrades no longer harm acceleration and top speed
+	(Reduced DRAG_COEFFICIENT from 0.45 to 0.4, to match stock value)
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.22 to 0.25
+	Increased LOW_BOOST from 0.22 to 0.25
+
+---------------------------------------------------------------------
+
+Tuners:
+
+Infiniti:
+
+G35:
+
+ Engine Max Upgraded:
+	Increased Torque Values by 60% 
+
+ Transmission Max Upgraded:
+	Reduced Final Drive from 3.5 to 3.2
+
+ Tires Max Upgraded:
+	Increased STEERING from 1.05 to 1.1
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.15 to 0.4
+	Increased LOW_BOOST from 0.15 to 0.35
+
+
+Mitsubishi:
+
+Lancer Evolution IX MR-edition: 
+
+ Engine Max Upgraded:
+	Now uses torque values ported over from MW's Lancer Evolution 8 (lancerevo8_top)
+
+ Transmission Max Upgraded:
+	Reduced Final Dive from 4.125 to 3.725
+	Reduced shift time (SHIFT_SPEED) from 0.2 to 0.1 (200ms -> 100ms), to match the value of the stock transmission. 
+	
+ Tires Max Upgraded:
+	Increased STEERING from 1.1 to 1.15
+
+
+Nissan:
+
+350z Z33:
+
+ Engine Max Upgraded: 
+	Increased torque values by 28%
+
+ Tires Max Upgraded:
+	Increased STEERING from 1.1 to 1.175
+	Increased YAW_SPEED from 0.3 to 0.35, to match the value of the stock tires.
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.2 to 0.36
+	Increased LOW_BOOST from 0.2 to 0.33
+
+
+Skyline GT-R R34:
+
+ Engine Max Upgraded:
+	Increased Torque values by 47.5%
+	(Seems like a lot, but pretty much just brings it in line with the other tuners)
+
+ Transmission Max Upgraded:
+	Reduced Final Drive gear ratio from 3.78 to 3.35
+
+ Tires Max Upgraded:
+	Increased STEERING from 1.1 to 1.12
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.1 to 0.15
+
+
+Subaru: 
+
+Impreza WRX STi (2006):
+ Engine Max Upgraded:
+	Now uses torque values ported over from MW's Impreza WRX STi 2004 (imprezawrx_top)
+
+ Transmission:
+	imprezawrxsti_top
+		Reduced Final Drive from 3.6 to 3.3
+
+ Tires Max Upgraded:
+	Increased STEERING from 1 to 1.175
+	Increased STATIC_GRIP from 2.15(front) 2.2(rear) to 2.25(front) and 2.3(rear)
+	Increased DYNAMIC_GRIP from 1.9 (front and rear) to 2.05 (front and rear)
+
+ Brakes Max Upgraded:
+	Increased Front Brake Power from 550 to 590
+	Increased Rear Brake Power from 650 to 690
+	Increased E-Brake Power from 850 to 890
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.1 to 0.15
+	Increased LOW_BOOST from 0.1 to 0.15
+
+
+Toyota: 
+
+Supra:
+ Engine Max Upgraded: 
+	Ported over MW(2005) Engine Torque Values.
+
+ Transmission Max Upgraded:
+ 	First 4 Gears: ported values from MW
+	Gear 5: Reduced Gear Ratio from 1.05 to 1
+	Gear 6: Reduced Gear Ratio from 0.9 to 0.752
+	
+ Induction Max Upgraded:
+ 	Increased HIGH_BOOST from 0.175 to 0.3
+	Increased LOW_BOOST from 0.1 to 0.25 
+
+---------------------------------------------------------------------
+
+Improvement Mod v2 Cars:
+
+Exotics:
+
+BMW:
+
+M3 CSL:
+ Engine Max Upgraded:
+	Increased Torque Values by 30%
+
+ Suspension Max Upgraded:
+	Suspension upgrades no longer harm acceleration and top speed 
+	(Reduced DRAG_COEFFICIENT from 0.32 to 0.3)
+	
+ Tires Max Upgraded:
+	Increased YAW_SPEED from 0.25 to 0.29
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.2 to 0.3
+	Increased LOW_BOOST from 0.2 to 0.35
+
+
+M3 GTR (Street):
+ Engine Max Upgraded:
+	Now uses torque values from M3 GTR (Race) 
+
+ Suspension Max Upgraded:
+	Suspension upgrades no longer harm acceleration and top speed 
+	(Reduced DRAG_COEFFICIENT from 0.32 to 0.3)
+
+ Tires Max Upgraded:
+	Increased YAW_SPEED from 0.25 to 0.26
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.2 to 0.3
+	Increased LOW_BOOST from 0.2 to 0.3
+
+
+Porsche:
+
+911 Carrera S (997):
+
+ Engine Max Upgraded:
+	Ported Over MW Engine Data
+
+ Transmission Max Upgraded:
+	Reduced Final Drive gear ratio from 3 to 2.7 
+
+ Suspension Max Upgraded:
+	Suspension upgrades no longer harm acceleration and top speed
+	(Reduced DRAG_COEFFICIENT from 0.37 to 0.29, to match stock value)
+	
+ Tires Max Upgraded:
+	Increased YAW_SPEED from 0.4 to 0.525
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST From 0.2 to 0.25
+	Increased LOW_BOOST From 0.2 to 0.25
+
+
+911 GT2 (996):
+ Engine Max Upgraded:
+	Increased torque values by 33%
+
+
+911 Turbo S (996):
+
+ Engine Max Upgraded: 
+	Ported over MW Engine Data
+
+ Transmission Max Upgraded:
+	Reduced Final Drive gear ratio from 3.8 to 3.5 
+
+ Suspension Max Upgraded:
+	Suspension upgrades no longer harm acceleration and top speed
+	(Reduced DRAG_COEFFICIENT from 0.36 to 0.35, to match stock value)
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST From 0.2 to 0.275
+	Increased LOW_BOOST From 0.3 to 0.375
+
+
+---------------------------------------------------------------------
+
+Muscle Cars:
+
+Chevrolet: 
+
+Corvette C6 (And Cross C6 Variants):
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.22 to 0.32
+	Increased LOW_BOOST from 0.3 to 0.4
+
+
+Corvette C6R:
+ Transmission Max Upgraded:
+	Reduced Shift Time from 0.25 to 0.2
+	Changed Shift Pattern from Muscle New to Exotic
+
+ Suspension Max Upgraded:
+	Suspension upgrades no longer harm acceleration and top speed
+	(Reduced Drag Coefficient from 0.35 to 0.3)
+
+---------------------------------------------------------------------
+
+Tuners:
+
+Mitsubishi:
+
+Lancer Evolution 8: 
+
+ Engine Max Upgraded:
+	Inherits vanilla torque values from Lancer Evo 9 (lancerevo9_top)
+	Increased REDLINE from 7000 to 7500
+	Increased MAX_RPM from 8000 to 8500
+
+ Suspension Max Upgraded
+	Reduced RENDER_MOTION from 1 to 0.5 
+ 
+ Tires Max Upgraded:
+	Increased STEERING from 1.05 to 1.1
+	Increased YAW_SPEED from 0.3 to 0.6 
+
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.25 to 0.375
+	Increased LOW_BOOST from 0.2 to 0.275
+
+
+Subaru: 
+
+Impreza WRX STI (2004):
+
+ Engine Max Upgraded:
+	Torque values are a 50/50 mix of MW's Impreza WRX STI (2004) and Carbons Impreza WRX STI (2006) 
+	*The engine from Carbons Impreza was still too slow.
+	Increased REDLINE from 7000 to 7450
+	Increased MAX_RPM from 8000 to 8450
+
+ Tires Max Upgraded:
+	Increased STEERING from 1 to 1.175
+	Increased YAW_SPEED from 0.4 to 0.42
+	Increased STATIC_GRIP from 2.15(front) 2.2(rear) to 2.25(front) and 2.3(rear)
+	Increased DYNAMIC_GRIP from 1.9 (front and rear) to 2.05 (front and rear)
+
+ Brakes Max Upgraded:
+	Increased Front Brake Power from 550 to 590
+	Increased Rear Brake Power from 650 to 690
+	Increased E-Brake Power from 850 to 890
+
+ Induction Max Upgraded:
+	Increased HIGH_BOOST from 0.15 to 0.225
+	Increased LOW_BOOST from 0.15 to 0.25
+
+---------------------------------------------------------------------
+
+
+
+
+
+
+
