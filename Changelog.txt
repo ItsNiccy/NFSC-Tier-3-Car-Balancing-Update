@@ -1,8 +1,12 @@
+NFSC Tier 3 Car Balancing Update.
+v1.5
+By El Nico.
+
 Changelog/Patch Notes:
 
 v1.5 - Add Bonus Cars, Ultimate Mod Support, Muscle Car Downforce, Various Tweaks
 (dd/mm/yyyy)
-(04/05/2025)
+(05/05/2025)
 
 Scripts and Installation:
 
