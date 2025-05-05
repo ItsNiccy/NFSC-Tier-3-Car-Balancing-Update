@@ -1,9 +1,18 @@
-NFSC Tier 3 Car Balancing Update.
-v1.5
-By El Nico.
-
 Changelog/Patch Notes:
+v1.5.01 - VltEd Installer Hotfix.
+(dd/mm/yyyy)
+(05/05/2025)
 
+Scripts and Installation:
+
+- Fixed an incorrect command in the depreciated "Vanilla_Non_Upgrade.nfsms" modscript, 
+  which was causing an error to pop up in the VltEd Installer, even if the script wasn't being used.
+	pre patch command:
+	update_field chassis mustangshlbyn_ERO_CG 47 
+
+	post patch command:
+	update_field chassis mustangshlbyn AERO_CG 47
+---------------------------------------------------------------------	
 v1.5 - Add Bonus Cars, Ultimate Mod Support, Muscle Car Downforce, Various Tweaks
 (dd/mm/yyyy)
 (05/05/2025)
@@ -1654,4 +1663,12 @@ Impreza WRX STI (2004):
 	Increased LOW_BOOST from 0.15 to 0.25
 
 ---------------------------------------------------------------------
+
+
+
+
+
+
+
+
 
