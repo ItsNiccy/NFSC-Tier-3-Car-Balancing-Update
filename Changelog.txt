@@ -1,4 +1,16 @@
 Changelog/Patch Notes:
+v1.5.02 - M3GTR Cross Chase Hotfix for Add Upgradeable Bonus Cars options.
+(dd/mm/yyyy)
+(14/05/2025)
+
+Scripts and Installation:
+
+"Completely Vanilla, Add Upgradeable Bonus Cars" Installation Options.
+- Prologue Cross Chase:
+	Changed PlayerCarType from the crosschase variant, 
+	to the careerstart variant that's used in the challenge series.
+	*This solves a crash that would occur when starting a new profile with "UnlockAll" turned off.
+---------------------------------------------------------------------
 v1.5.01 - VltEd Installer Hotfix.
 (dd/mm/yyyy)
 (05/05/2025)
