@@ -5,7 +5,8 @@ v1.5.02 - M3GTR Cross Chase Hotfix for Add Upgradeable Bonus Cars options.
 
 Scripts and Installation:
 
-"Completely Vanilla, Add Upgradeable Bonus Cars" Installation Options.
+"Completely Vanilla, Add Upgradeable Bonus Cars"
+"Completely Vanilla, Add Upgradeable Bonus Cars (With CS Unlock Conditions)"
 - Prologue Cross Chase:
 	Changed PlayerCarType from the crosschase variant, 
 	to the careerstart variant that's used in the challenge series.
