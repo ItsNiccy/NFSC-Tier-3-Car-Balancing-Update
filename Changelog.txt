@@ -561,11 +561,11 @@ Challenger Concept:
 	Increased Torque Values by 12.5% (From original values, up from 11%) 
 
  Suspension Max Upgraded:
-	Increased Increased AERO_COEFFICIENT from 0.2 to 0.225
+	Increased AERO_COEFFICIENT from 0.2 to 0.225
 
 Viper:
  Suspension Max Upgraded:
-	Increased Increased AERO_COEFFICIENT from 0.2 to 0.215
+	Increased AERO_COEFFICIENT from 0.2 to 0.215
 
  Tires Max Upgraded:
 	Reduced YAW_CONTROL[0] from 0.05 to 0
@@ -576,7 +576,7 @@ Plymouth:
 
 Hemi Cuda:
  Suspension Max Upgraded:
-	Increased Increased AERO_COEFFICIENT from 0.2 to 0.22
+	Increased AERO_COEFFICIENT from 0.2 to 0.22
 	Increased FRONT_WEIGHT_BIAS from 50 to 50.3
 
  Tires Max Upgraded:
