@@ -1,6 +1,6 @@
 Changelog/Patch Notes:
 
-v1.6 - MW style upgrades and performance for Tier 1 and 2 cars, Carrera GT small Rework, Skyline UG2 Torque values, Bonus Cars VltEd Support, Various changes.
+v1.6 - MW style upgrades and performance for Tier 1 and 2 cars, Carrera GT small rework, Skyline UG2 torque values, bonus cars VltEd support, various changes.
 (dd/mm/yyyy)
 (30/09/2025)
 
@@ -10,7 +10,7 @@ This Large update includes:
 
 - A small rework to the Carrera GT so it performs more similar to its MW counterpart.
 
-- A small rework to some Muscle Cars, Giving them an additional performance boost, 
+- A small rework to some Muscle Cars, giving them an additional performance boost, 
   with the trade-off of slightly less tire grip. 
 
 - The Skyline now has its torque values from Underground 2.
@@ -20,13 +20,13 @@ This Large update includes:
 - Several cars got improvements to their top speed potential. 
   (Note: Top speeds shown are with manual transmission)
   
-- Massive Overhaul for both the Installation and Un-Installation scripts, they now contain all the necessary vlt data.
+- Massive overhaul for both the Installation and Un-Installation scripts, they now contain all the necessary vlt data.
 
 - Added VltEd support for Add Upgradeable Bonus Cars options.
 
 - Removed "Completely Vanilla" option for both VltEd and OGVI installers. 
   it's no-longer supported, and the VltEd installer now has the option to add bonus cars.
-  The VLT Code was carried over from the standalone Bonus Cars Mod
+  The VLT Code was carried over from the standalone Bonus Cars Mod.
 
 
 The MW style upgrades scripts for Tier 1 and 2 cars are entirely optional, 
