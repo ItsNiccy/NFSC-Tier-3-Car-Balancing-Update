@@ -2,7 +2,7 @@
 ### Changelog/Patch Notes:  
 **v1.6.1 - Viper grip nerf, SLR adjustments, tiny adjustments to Tier 1 and 2 Cars.**  
 **(dd/mm/yyyy)**  
-**(11/10/2025)**
+**(12/10/2025)**
 
 # Vanilla Cars
 
@@ -27,12 +27,12 @@
 	- Increased YAW_SPEED from 0.3725 to 0.375
 
 
-## Mercedes Benz McLaren SLR (Tier 3)
+## Mercedes Benz McLaren SLR (Tier 3)  
+> Suspension upgrades no-longer decrease shock valving values.
 - Engine Max Upgraded:
 	- Increased torque values by 25% (from original values, up from 24%)
 
 - Suspension Max Upgraded:
-> Suspension upgrades no-longer harm Shock Valving values.
 	- Increased DRAG_COEFFICIENT from 0.4 to 0.44 (Vanilla value)
 	- Increased SHOCK_VALVING Front from 18 to 26
 	- Increased SHOCK_VALVING Rear from 18 to 26
@@ -60,7 +60,7 @@
 - Tires Max Upgraded:
 	- Increased STEERING from 1 to 1.05
 
-## Nissan 240sx (Tier 1)
+## Nissan 240SX (Tier 1)
 - Engine Max Upgraded:
 	- Increased torque values by 2.3% (from MW Cobalt SS values, up from 2%)
 
