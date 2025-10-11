@@ -1,8 +1,11 @@
 # NFSC - Tier 3 Car Balancing Update
 ### Changelog/Patch Notes:  
-**v1.6.1 - Viper grip nerf, SLR adjustments, tiny adjustments to Tier 1 and 2 Cars.**  
+*Note: Changes to Tier 1 and 2 Cars only apply to the 'MW Style Upgrades' installation options.
+
+**v1.6.1 - Viper grip nerf, SLR adjustments, Eclipse GS-T 1999 transmission fix, Small adjustments to Tier 1 and 2 Cars.**  
 **(dd/mm/yyyy)**  
 **(12/10/2025)**
+
 
 # Vanilla Cars
 
@@ -60,6 +63,11 @@
 - Tires Max Upgraded:
 	- Increased STEERING from 1 to 1.05
 
+## Mazda RX-8 (Tier 1)
+- Induction Max Upgraded:
+	- Increased HIGH_BOOST from 0.3 to 0.3025
+	- Increased LOW_BOOST from 0.3 to 0.3025
+
 ## Nissan 240SX (Tier 1)
 - Engine Max Upgraded:
 	- Increased torque values by 2.3% (from MW Cobalt SS values, up from 2%)
@@ -77,11 +85,6 @@
 - Induction Max Upgraded:
 	- Increased HIGH_BOOST from 0.225 to 0.233
 	- Increased LOW_BOOST from 0.225 to 0.233
-	
-## Mazda RX-8 (Tier 2)
-- Induction Max Upgraded:
-	- Increased HIGH_BOOST from 0.3 to 0.3025
-	- Increased LOW_BOOST from 0.3 to 0.3025
 	
 ## Mitsubishi Eclipse GS-T 1999 (Tier 2):
 - Engine Max Upgraded:
