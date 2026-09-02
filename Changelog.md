@@ -12,11 +12,6 @@
 You now have the option to add cop car frontend logos during the Binary/Binarius installation.
 These were *finally* copied over from the bonus cars mod, so you no longer have to download and install only the binary part of an entirely separate mod.
 
-Optimized scripts to ensure performance parity between Ultimate Mod and MW Style Upgrades for Tier 1 and 2 Cars.
-Exceptions include cars having different mass and or tensor scale, 
-and some cars being of a different trim level (eg. RS4 instead of an A4, S3 instead of an A3, IS300 having a different mass).
-Ultimate Mod specific cars, and cars with a different mass still have their own specific scripts and do not share performance data with their vanilla counterparts.
-
 Added several engine sounds from NFSMW 2005, and a few sounds from Prostreet.
 * Not all sounds are listed, only the notable ones.
 
