@@ -13,7 +13,7 @@ You now have the option to add cop car frontend logos during the Binary/Binarius
 These were *finally* copied over from the bonus cars mod, so you no longer have to download and install only the binary part of an entirely separate mod.
 
 Added several engine sounds from NFSMW 2005, and a few sounds from Prostreet.
-* Not all sounds are listed, only the notable ones.
+Not all sounds are listed, only the notable ones.
 
 NFSMW Sounds:
 - corvette_z06_v2 (CarID 74) (NFSMW Corvette C6 Sound)
