@@ -2,6 +2,651 @@
 ### Changelog/Patch Notes:  
 *Note: Changes to Tier 1 and 2 Cars only apply to the 'MW Style Upgrades' installation options, or to Ultimate Mod installation.
 
+**v1.7 - Lots of changes, Engine sounds from MW, Engine + Caraudio mini-overhaul.**  
+**(dd/mm/yyyy)**  
+**(02/09/2026)**  
+
+# Scripts and installation
+
+### MW Style Upgrades
+You now have the option to add cop car frontend logos during the Binary/Binarius installation.
+These were *finally* copied over from the bonus cars mod, so you no longer have to download and install only the binary part of an entirely separate mod.
+
+Optimized scripts to ensure performance parity between Ultimate Mod and MW Style Upgrades for Tier 1 and 2 Cars.
+Exceptions include cars having different mass and or tensor scale, 
+and some cars being of a different trim level (eg. RS4 instead of an A4, S3 instead of an A3, IS300 having a different mass).
+Ultimate Mod specific cars, and cars with a different mass still have their own specific scripts and do not share performance data with their vanilla counterparts.
+
+Added several engine sounds from NFSMW 2005, and a few sounds from Prostreet.
+* Not all sounds are listed, only the notable ones.
+
+NFSMW Sounds:
+- corvette_z06_v2 (CarID 74) (NFSMW Corvette C6 Sound)
+- pon_gto_exh (GIN_GTO_65.gin) (CarID 73)
+- for_mus_gt_c (GIN_Mustang_GT_C.gin) (CarID 74)
+* for_mus_gt_b was planned, but the abk files are bugged out, basically a combination of for_mus_a and for_mus_b, but sounds aren't correctly pitched.
+- am_db9 (GIN_DB9.gin) (CarID 75) (Stock DB9 sound from MW)
+- am_db9_upgr (GIN_DB9_upgrd.gin) (CarID 75)
+- mbz_clk500 (GIN_MBZ_CLK500.gin) (CarID 57)
+
+Prostreet Sounds:
+Note: All Prostreet sounds are from Yash's 'Prostreet Car Sounds (gin files) to Carbon (Moddders Resource)' Mod.
+Full credit goes to Yash for converting tmx files to gin, and the mod itself.
+- https://nfsmods.xyz/mod/693
+Please note that for the prostreet sounds, the intention isn't for them to be 1:1 re-creations as they were in Prostreet.
+Prostreet TMX -> Ginsu sounds were mainly used to create new car sounds that also use existing ABK's from MW and Carbon.
+Keep in mind that using a CarID of 100 or above will cause the car to use the dump truck audio, so vanilla CarID's had to be repurposed.
+Some engineaudio files are not named correctly (compared to Prostreet), either because they match with a certain CarID, or they were initially made for a certain car.
+
+- cor_z06_a_eng (car-073-eng-3.gin) (CarID 85)
+- cor_z06_a_eng_2 (car-073-eng-1.gin) (CarID 85)
+- pon_gto_exh_2 (car-073-exh-2.gin) (CarID 73) *cor-z06-a in prostreet, but matches with the CarID of GIN_GTO_65.gin.
+- pon_gto_exh_3 (car-101-exh-2.gin) (CarID 73) *pon_gto_a in prostreet.
+- mbz_sl65_2 (car-128-exh-1.gin) (CarID 59, same as MW/C Sl65)
+- kon_ccx_exh (car-106-exh-2.gin) (CarID 85)
+- aud_r8_eng (car-120-eng-3.gin) (CarID 87) (used where high revving v8 front engine sounds are needed, mainly for V8 Exotics)
+
+# Cop Cars 
+
+## Player Police Civic Cruiser (Tier 3) (Vanilla, ImpMod)
+- Suspension Max Upgraded:
+	- Reduced ROLL_CENTER from 9.875 to 9
+
+- Transmission Max Upgraded:
+	- Reduced FINAL_GEAR from 3.1 to 2.9
+	
+## Player Police Cross C6 (Tier 3) (Vanilla)
+- ecar:
+	- Reduced RideHeight from 0 to -0.3
+
+- Engine Max Upgraded:
+	- Slightly increased torque values (MW 1.125x -> MW 1.15x)
+	
+- Transmission Max Upgraded:
+	- Reduced FINAL_GEAR from 3.5 to 3.3
+
+- Stock Suspension:
+	- Increased RIDE_HEIGHT Front from 7 to 8.85
+	- Increased RIDE_HEIGHT Rear from 7 to 8.85
+	
+- Suspension Max Upgraded:
+	- Increased DRAG_COEFFICIENT from 0.33 to 0.35
+	- Increased RIDE_HEIGHT Front from 6 to 7.5
+	- Increased RIDE_HEIGHT Rear from 6 to 7.5
+	- Increased SHOCK_EXT_STIFFNESS Front from 85 to 95
+	- Increased SHOCK_EXT_STIFFNESS Rear from 85 to 95
+	- Increased SHOCK_STIFFNESS Front from 70 to 80
+	- Increased SHOCK_STIFFNESS Rear from 70 to 80
+	- Increased SPRING_STIFFNESS Front from 650 to 750
+	- Increased SPRING_STIFFNESS Rear from 675 to 875
+	- Increased SWAYBAR_STIFFNESS Front from 260 to 360
+	- Increased SWAYBAR_STIFFNESS Rear from 260 to 360
+	
+- Tires Max Upgraded:
+	- Increased STEERING from 1 to 1.05
+
+## Player Police Corvette Z06 (Normal and Undercover) (Tier 3) (Vanilla, ImpMod)
+- Stock Engine:
+	- Increased FLYWHEEL_MASS from 14 to 15
+
+- Stock Suspension:
+	- Increased DRAG_COEFFICIENT from 0.44 to 0.45
+	- Reduced SHOCK_VALVING Front from 24 to 22
+	- Reduced SHOCK_VALVING Rear from 24 to 22
+	- Reduced SPRING_PROGRESSION Front from 7.5 to 7
+	- Increased TRAVEL Front from 7 to 7.5
+	- Increased TRAVEL Rear from 7 to 7.5
+
+- Suspension Max Upgraded:
+	- Increased DRAG_COEFFICIENT from 0.44 to 0.45
+	- Reduced RENDER_MOTION from 1 to 0.75
+	- Increased RIDE_HEIGHT Front from 7 to 7.5
+	- Increased RIDE_HEIGHT Rear from 7 to 7.5
+	- Increased SHOCK_DIGRESSION Front from 0.2 to 0.45
+	- Increased SHOCK_DIGRESSION Rear from 0.2 to 0.45
+	- Increased SPRING_PROGRESSION Front from 7 to 7.5
+
+# Vanilla Cars
+
+# Exotics
+
+## Alfa Romeo Brera (Tier 1)
+- Changed stock exhaustaudio sound from nis_sky to nis_300zx.
+
+- Stock Engine:
+	- Slightly increased torque values (1.025x -> 1.044x)
+	
+- Suspension Max Upgraded:	
+	- Reduced ROLL_CENTER from 10.5 to 10
+	
+- Tires Max Upgraded:
+	- Increased GRIP_SCALE Front from 1.05 to 1.1
+	- Increased GRIP_SCALE Rear from 1.1 to 1.11
+	- Increased STEERING from 0.8 to 0.9
+
+## Mercedes Benz CLK-500 (Tier 1)
+- Engine Max Upgraded:
+	- Slightly increased torque values (MW 1.1x -> MW 1.119x)
+
+- Suspension Max Upgraded:
+	- Reduced DRAG_COEFFICIENT from 0.35 to 0.3375
+
+- Induction Max Upgraded:
+	- Reduced LOW_BOOST from 0.11 to 0.1
+	
+## Aston Martin DB9 (Tier 2)
+- Engine Max Upgraded:
+	- Slightly increased torque values (MW 1.0605x -> MW 1.09x)
+	
+- Suspension Max Upgraded:
+	- Reduced DRAG_COEFFICIENT from 0.3525 to 0.35
+	
+## Lotus Elise (Tier 2)
+> The Elise should now handle faster and feel more like its MW counterpart.
+
+- Stock Suspension:
+	- Reduced SHOCK_EXT_STIFFNESS and SHOCK_STIFFNESS values to match the MW stock values.
+
+- Suspension Max Upgraded:
+	- Reduced SHOCK_EXT_STIFFNESS Front from 70 to 45
+	- Reduced SHOCK_EXT_STIFFNESS Rear from 72 to 45
+	- Reduced SHOCK_STIFFNESS Front from 65 to 35
+	- Reduced SHOCK_STIFFNESS Rear from 62 to 35 
+	- Reduced SPRING_STIFFNESS Front from 585 to 500
+	- Reduced SPRING_STIFFNESS Rear from 485 to 400
+
+- Tires Max Upgraded:
+	- Improved steering range by 12.5%.
+	- Ported over MW YAW_CONTROL values.
+	
+## Lotus Europa (Tier 2)
+- Suspension Max Upgraded:
+	- Reduced ROLL_CENTER from 9.75 to 9
+
+## Jaguar XK (Tier 2)
+- Suspension Max Upgraded:
+	- Reduced ROLL_CENTER from 9.5 to 9
+
+- Tires Max Upgraded:	
+	- Increased STEERING from 0.9 to 0.925
+
+## Porsche Cayman S (Tier 2)
+- Suspension Max Upgraded:
+	- Reduced DRAG_COEFFICIENT from 0.2725 to 0.27
+	
+- Tires Max Upgraded:
+	- Increased YAW_SPEED from 0.375 to 0.4
+
+## Ford GT (Tier 3)
+> The stock Ford GT is now faster, with some trade-offs to its stock chassis and transmission.
+
+- Stock Engine:
+	- Now uses torque values from MW's stock Ford GT
+	
+- Stock Transmission:
+	- Reduced GEAR_EFFICIENCY[2] from 0.98 to 0.8 (First Gear)
+	- Reduced GEAR_EFFICIENCY[3] from 1 to 0.82 (Second Gear)
+	- Reduced GEAR_EFFICIENCY[4] from 1 to 0.98 (Third Gear)
+	
+- Transmission Max Upgraded:
+	- Increased CLUTCH_SLIP from 0.75 to 0.9
+	
+- Stock Suspension:
+	- Increased AERO_COEFFICIENT from 0.205 to 0.215
+	- Increased DRAG_COEFFICIENT from 0.3 to 0.38
+	- Reduced SHOCK_VALVING Front from 20 to 17
+	- Reduced SHOCK_VALVING Rear from 20 to 17
+	- Reduced SPRING_PROGRESSION Front from 7.6 to 6.6
+	- Reduced SPRING_PROGRESSION Rear from 8 to 7
+	
+- Stock Supercharger:
+	- Increased HIGH_BOOST from 0.2 to 0.25
+	- Increased LOW_BOOST from 0.2 to 0.25
+	- Increased SPOOL_TIME_DOWN from 0 to 0.25
+	- Increased SPOOL_TIME_UP from 0 to 1.5
+	
+## Koenigsegg CCX (Tier 3)
+- Suspension Max Upgraded:
+	- Reduced ROLL_CENTER from 9.251 to 8.551
+	
+## Lamborghini Gallardo (Tier 3)
+- Suspension Max Upgraded:
+	- Increased AERO_CG from 46.25 to 47.75
+	
+- Tires Max Upgraded:
+	- Increased YAW_SPEED from 0.305 to 0.325
+	
+## Lamborghini Murcielago (Tier 3)
+- Suspension Max Upgraded:
+	- Reduced ROLL_CENTER from 9 to 8.7 (MW Value)
+
+- Tires Max Upgraded
+	- Increased GRIP_SCALE Front from 1.05 to 1.1
+	- Increased GRIP_SCALE Rear from 1.1 to 1.12
+	
+## Porsche 911 GT3-RS 997 (Tier 3)
+- Suspension Max Upgraded:
+	- Increased RIDE_HEIGHT Front from 8.5 to 9
+	- Increased RIDE_HEIGHT Front from 8.5 to 9
+	- Reduced ROLL_CENTER from 9 to 8.5
+	- Increased SPRING_STIFFNESS Rear from 830 to 925
+	
+- Tires Max Upgraded:
+	- Slightly improved steering range
+	
+## Porsche Carrera GT (Tier 3)
+- Tires Max Upgraded:
+	- Increased YAW_SPEED from 0.29 to 0.3
+	
+## Porsche 911 Turbo 997 (Tier 3)
+- Transmission Max Upgraded:
+	- Increased FINAL_GEAR from 3.025 to 3.125 (Vanilla value)
+	
+- Suspension Max Upgraded:
+	- Reduced ROLL_CENTER from 10 to 9
+	
+# Muscle Cars
+
+## Chevrolet Camaro SS (Tier 1)
+- Suspension Max Upgraded:
+	- Reduced RIDE_HEIGHT Front from 7 to 6.75
+	- Reduced RIDE_HEIGHT Rear from 7 to 6.75
+	- Reduced ROLL_CENTER from 11.5 to 11
+	
+## Chevrolet Chevelle SS (Tier 1)
+- Suspension Max Upgraded:
+	- Increased SPRING_PROGRESSION Front from 6 to 7.25
+	- Increased SPRING_PROGRESSION Front from 7 to 8.25
+	
+- Induction Max Upgraded:
+	- Increased HIGH_BOOST from 0.266 to 0.269
+	- Increased LOW_BOOST from 0.266 to 0.269
+	- Reduced SPOOL_TIME_UP from 1.75 to 0.75
+
+## Chrysler 300c SRT-8 (Tier 1)
+- Stock Engine:
+	- Increased torque values by 21%
+
+## Dodge Charger R/T 1969 (Tier 2)
+- Induction Max Upgraded:
+	- Increased HIGH_BOOST from 0.3325 to 0.35
+	- Increased LOW_BOOST from 0.3325 to 0.35
+	
+## Dodge Charger SRT-8 2006 (Tier 2)
+- Stock Engine:
+	- Increased torque values by 7.5%
+
+- Suspension Max Upgraded:
+	- Increased AERO_CG from 47.5 to 51
+	
+## Ford Mustang GT (Tier 2)
+- Tires Max Upgraded:
+	- Increased YAW_SPEED from 0.385 to 0.44
+	
+## Plymouth Roadrunner (Tier 2)
+- Tires Max Upgraded:
+	- Reduced YAW_CONTROL[0] from 0.1 to 0.025
+	- Reduced YAW_CONTROL[1] from 0.2 to 0.05
+	- Reduced YAW_CONTROL[2] from 0.3 to 0.075
+	- Reduced YAW_CONTROL[3] from 0.35 to 0.15
+	
+## Vauxhall Monaro VXR (Tier 2)
+- Engine Max Upgraded:
+	- Very slightly improved mid range torque values.
+
+## Chevrolet Camaro Concept (Tier 3)
+- Suspension Max Upgraded
+	- Reduced RENDER_MOTION from 0.75 to 0.5
+
+## Dodge Challenger Concept (Tier 3)
+- Brakes Max Upgraded:
+	- Increased EBRAKE power from 750 to 900
+	
+## Shelby GT500 1967 (Tier 3)
+- Induction Max Upgraded:
+	- Increased HIGH_BOOST from 0.325 to 0.33
+	- Increased LOW_BOOST from 0.325 to 0.33
+	
+## Shelby GT500 2007 (Tier 3)
+- Transmission Max Upgraded:
+	- Increased CLUTCH_SLIP from 0.701 to 0.8
+	
+- Suspension Max Upgraded:
+	- Increased AERO_CG from 47.75 to 48
+
+# Tuners
+
+## Lexus IS300 (Tier 1)
+- Transmission Max Upgraded:
+	- Reduced FINAL_GEAR from 3.4 to 3
+
+- Induction Max Upgraded:
+	- Increased HIGH_BOOST from 0.33 to 0.3325
+	- Increased LOW_BOOST from 0.33 to 0.3325
+
+## Mazda Mazdaspeed 3 (Tier 1)
+- Suspension Max Upgraded:
+	- Increased SHOCK_STIFFNESS Rear from 55 to 60
+	- Increased SPRING_STIFFNESS Rear from 600 to 650
+
+- Tires Max Upgraded:
+	- Increased GRIP_SCALE Front from 1.05 to 1.06
+	- Increased GRIP_SCALE Rear from 1.075 to 1.09
+	- Increased STATIC_GRIP Front from 1.95 to 2
+	- Increased STATIC_GRIP Rear from 2.05 to 2.1
+	- Increased YAW_SPEED from 0.385 to 0.4
+	
+## Mazda RX-8 (Tier 1)
+- Induction Max Upgraded:
+	- Increased HIGH_BOOST from 0.305 to 0.3065
+	- Increased LOW_BOOST from 0.305 to 0.3065
+
+## Nissan 240sx (Tier 1)
+- Engine Max Upgraded:
+	- Reduced FLYWHEEL_MASS from 9.25 to 8.5
+	- Slightly increased torque values.
+	
+- Suspension Max Upgraded:
+	- Reduced AERO_COEFFICIENT from 0.2565 to 0.2425
+	- Reduced ROLL_CENTER from 8.9 to 8.5
+	
+- Tires Max Upgraded:
+	- Increased YAW_SPEED from 0.3825 to 0.385
+	
+## Mazda RX-7 (Tier 2)
+- Suspension Max Upgraded:
+	- Reduced ROLL_CENTER from 8.8 to 8.5
+	
+- Induction Max Upgraded:
+	- Increased HIGH_BOOST from 0.25 to 0.2533
+	- Increased LOW_BOOST from 0.25 to 0.2533
+
+## Mitsubishi Eclipse GS-T 1999 (Tier 2)
+- Tires Max Upgraded:
+	- Increased DYNAMIC_GRIP Front from 1.6 to 1.7
+	- Increased DYNAMIC_GRIP Rear from 1.7 to 1.8
+	- Increased STATIC_GRIP Rear from 2 to 2.05
+	
+## Mitsubishi Eclipse GT (Tier 2)
+- Suspension Max Upgraded:
+	- Reduced AERO_COEFFICIENT from 0.265 to 0.26
+
+- Induction Max Upgraded:
+	- Increased HIGH_BOOST from 0.4 to 0.425
+	- Increased LOW_BOOST from 0.4 to 0.425
+	
+## Renault Clio V6 (Tier 2)
+- Stock Suspension:
+	- Increased AERO_COEFFICIENT from 0.16 to 0.17
+	
+- Stock Tires:
+	- Increased YAW_SPEED from 0.315 to 0.325
+	
+- Engine Max Upgraded:
+	- Reduced FLYWHEEL_MASS from 12 to 11.75
+	
+## Toyota Corolla GT-S (Tier 2)
+- Tires Max Upgraded:
+	- Improved steering range.
+	- Reduced YAW_CONTROL[0] from 0.4 to 0.1
+	
+## Toyota MR2 (Tier 2)
+- Tires Max Upgraded:
+	- Increased DYNAMIC_GRIP Front from 1.925 to 2
+	- Increased DYNAMIC_GRIP Rear from 1.975 to 2.1
+
+## Volkswagen Golf R32 (Tier 2)
+- Stock Engine
+	- Increased torque values by 8.96%
+	
+- Stock Suspension
+	- Increased DRAG_COEFFICIENT from 0.3 to 0.35
+	- Increased TRAVEL Front from 7 to 7.1
+	- Increased TRAVEL Rear from 7 to 7.1
+
+## Infiniti G35 (Tier 3)
+- Engine Max Upgraded:
+	- Slightly increased torque values (1.885x -> 1.893x)
+	
+## Mitsubishi Lancer Evolution 9 (Tier 3)
+- Transmission Max Upgraded:
+	- Reduced FINAL_GEAR from 3.475 to 3.4
+	- Increased SHIFT_SPEED from 0.1 to 0.2
+	
+- Suspension Max Upgraded:
+	- Reduced DRAG_COEFFICIENT from 0.39 to 0.38225
+	
+- Tires Max Upgraded:
+	- Reduced STEERING from 1.15 to 1.1
+	
+- Induction Max Upgraded:
+	- Reduced SPOOL_TIME_UP from 2 to 1.5
+
+## Nissan 350z Z33 (Tier 3)
+- Transmission Max Upgraded:
+	- Reduced FINAL_GEAR from 2.84 to 2.8
+
+## Nissan Skyline GTR R-34 (Tier 3)
+- Induction Max Upgraded:
+	- Increased LOW_BOOST from 0.2 to 0.225
+	
+## Subaru Impreza WRX ST-i GDB-F (Tier 3)
+- Suspension Max Upgraded:
+	- Reduced DRAG_COEFFICIENT from 0.39 to 0.38225
+	- Increased SHOCK_EXT_STIFFNESS Front from 75 to 80
+	- Increased SHOCK_STIFFNESS Rear from 60 to 65
+	- Increased SHOCK_VALVING Front from 24 to 25
+	- Increased SHOCK_VALVING Rear from 24 to 25
+	- Reduced TRAVEL Front from 6 to 5.75
+	- Reduced TRAVEL Rear from 6 to 5.75
+	
+- Tires Max Upgraded:
+	- Reduced STEERING from 1.175 to 1.1
+	- Improved steering range by 12.5%
+
+## Toyota Supra:
+- Engine Max Upgraded:
+	- Slightly increased torque values (MW 1.075x -> MW 1.09x)
+	
+- Transmission Max Upgraded:
+	- Increased FINAL_GEAR from 2.64 to 2.7
+	
+- Suspension Max Upgraded:
+	- Increased SPRING_STIFFNESS Rear from 725 to 775
+
+# Improvement Mod v2 + Ultimate Mod Shared Cars
+
+# Exotics
+
+## Porsche 911 Turbo 996 (Tier 3)
+- Engine Max Upgraded:
+	- Increased FLYWHEEL_MASS from 9.5 to 10
+
+- Suspension Max Upgraded:
+	- Increased DRAG_COEFFICIENT from 0.35 to 0.36
+	
+- Tires Max Upgraded:
+	- Increased YAW_SPEED from 0.475 to 0.485
+	
+- Stock Brakes:
+	- Reduced Front brake power from 450 to 400
+	
+- Brakes Max Upgraded:
+	- Ported over MW Brakes values
+	
+- Induction Max Upgraded
+	- Increased HIGH_BOOST from 0.3 to 0.32
+	- Increased LOW_BOOST from 0.4 to 0.43
+
+# Improvement Mod v2 Cars
+
+# Exotics
+
+## Audi A3 (Tier 2)
+- Stock Engine:
+	- Increased RED_LINE from 6500 to 7000
+	- Increased MAX_RPM from 7500 to 8000
+
+- Engine Max Upgraded:
+	- Increased RED_LINE from 6750 to 7000
+	- Increased MAX_RPM from 7750 to 8000
+	
+- Transmission Max Upgraded:
+	- Increased FINAL_GEAR from 3.4 to 3.625
+	
+- Stock Suspension:
+	- Reduced SWAYBAR_STIFFNESS Rear from 230 to 220
+	- Increased SHOCK_DIGRESSION Front from 0.1 to 0.2
+	- Increased SHOCK_DIGRESSION Rear from 0.1 to 0.2
+	
+- Suspension Max Upgraded:
+	- Reduced SHOCK_DIGRESSION Front from 0.2 to 0.1
+	- Reduced SHOCK_DIGRESSION Rear from 0.2 to 0.1
+	- Increased SWAYBAR_STIFFNESS Rear from 220 to 230
+	
+- Tires Max Upgraded:
+	- Reduced GRIP_SCALE Front from 1.025 to 1
+	- Reduced GRIP_SCALE Rear from 1.075 to 1
+	- Increased YAW_SPEED from 0.6 to 0.61
+
+#Audi TT (Tier 2)
+- Suspension Max Upgraded:
+	- Reduced TRAVEL Front from 7 to 6.5
+	- Reduced TRAVEL Rear from 7 to 6.5
+	
+- Tires Max Upgraded:
+	- Reduced GRIP_SCALE Rear from 1.025 to 1.01 (MW Value).
+	
+## Audi R8 4.2 FSI Quattro (V8 production model) (Tier 3)
+- Induction Max Upgraded:
+	- Increased HIGH_BOOST from 0.225 to 0.233
+	- Increased LOW_BOOST from 0.225 to 0.233
+	
+## BMW M3 CSL (Tier 3)
+- Tires Max Upgraded:
+	- Slightly improved steering range.
+	
+## BMW M3 GTR Street (Tier 3)
+- Tires Max Upgraded:
+	- Increased STATIC_GRIP Front from 2.25 to 2.3
+	- Increased STATIC_GRIP Rear from 2.35 to 2.4
+	
+# Muscle Cars
+
+## Cadillac CTS (Tier 1)
+- Engine Max Upgraded:
+	- Reduced FLYWHEEL_MASS from 14 to 13.5
+
+- Transmission Max Upgraded:
+	- Reduced FINAL_GEAR from 3.8 to 3.6
+
+- Suspension Max Upgraded:
+	- Ported over all MW suspension values.
+
+- Tires Max Upgraded:
+	- Increased YAW_SPEED from 0.32 to 0.35
+
+## Corvette C6 + Player Cop Cross C6 (Tier 3)
+- ecar [copsport + copsportb]
+	- Ported over MW C6 BodyDive, BodyRoll and BodySquat values.
+
+- Engine Max Upgraded:
+	- Slightly increased torque values (MW 1.125x -> MW 1.15x)
+
+- Transmission Max Upgraded:
+	- Reduced FINAL_GEAR from 3.5 to 3.3
+
+- Suspension Max Upgraded:
+	- Increased DRAG_COEFFICIENT from 0.33 to 0.35
+	- Increased SHOCK_EXT_STIFFNESS Front from 85 to 95
+	- Increased SHOCK_STIFFNESS Front from 70 to 80
+	- Increased SPRING_STIFFNESS Front from 650 to 750
+	- Increased SWAYBAR_STIFFNESS Front from 260 to 360
+	
+- Tires Max Upgraded:
+	- Increased STEERING from 1 to 1.05
+	
+## Corvette C6R (Tier 3)
+- Transmission Max Upgraded:
+	- Reduced FINAL_GEAR from 3.3 to 3.1
+
+- Suspension Max Upgraded:
+	- Increased DRAG_COEFFICIENT from 0.35 to 0.38
+	
+- Tires Max Upgraded:
+	- Ported over MW YAW_CONTROL values.
+
+# Tuners
+
+## Fiat Punto (Tier 1)
+- Engine Max Upgraded:
+	- Reduced FLYWHEEL_MASS from 10 to 9
+	- Increased torque values by 6.6%
+	
+- Transmission Max Upgraded:
+	- Reduced DIFFERENTIAL[1] from 0.7 to 0
+	- Reduced FINAL_GEAR from 2.8 to 2.6
+
+- Suspension Max Upgraded:
+	- Reverted DRAG_COEFFICIENT change from 1.6.3 (0.3 -> 0.32)
+	
+- Induction Max Upgraded:
+	- Reduced HIGH_BOOST from 0.25 to 0.2
+	- Reduced LOW_BOOST from 0.125 to 0.1
+	
+## Mazda 3 Sport (Tier 1)
+- Engine Max Upgraded:
+	- Reduced FLYWHEEL_MASS from 11.5 to 11.25
+	
+- Suspension Max Upgraded:
+	- Reduced DRAG_COEFFICIENT from 0.3825 to 0.38
+	
+- Induction Max Upgraded:
+	- Reduced SPOOL from 0.2 to 0.17
+
+## Mitsubishi Lancer Evolution 8 (Tier 3)
+- Suspension Max Upgraded:
+	- Ported over MW suspension values.
+	
+- Tires Max Upgraded:
+	- Reduced GRIP_SCALE Front from 1.2 to 1.05
+	- Reduced GRIP_SCALE Rear from 1.2 to 1.075
+	
+- Induction Max Upgraded:
+	- Increased HIGH_BOOST from 0.33 to 0.365
+	- Increased LOW_BOOST from 0.22 to 0.26
+
+## Subaru Impreza WRX ST-i GDB-D (Tier 3)
+- Tires Max Upgraded:
+	- Reduced DYNAMIC_GRIP Front from 2.1 to 1.9
+	- Reduced DYNAMIC_GRIP Rear from 2.1 to 1.9
+	- Reduced STATIC_GRIP Front from 2.35 to 2.15
+	- Reduced STATIC_GRIP Rear from 2.4 to 2.2
+	
+- Induction Max Upgraded:
+	- Increased HIGH_BOOST from 0.22 to 0.26
+	- Increased LOW_BOOST from 0.33 to 0.365
+	
+# Ultimate Mod Cars
+
+# Tuners
+
+## Nissan Silvia (Tier 2)
+- Suspension Max Upgraded:
+	- Reduced ROLL_CENTER from 9.5 to 9
+	
+---
+**v1.6.3.1 - Improvement Mod v2 compatibility hotfix**  
+**(dd/mm/yyyy)**  
+**(31/05/2026)**  
+
+# Scripts and installation
+
+### Improvement Mod v2:
+- Disabled Cop Cross C6 and Cop Corvette z06 installation scripts, 
+as they use parts from the normal C6 and z06 in newer versions of Improvement Mod v2.
+	
+---
 **v1.6.3 - Lots of small changes, fixes, improved Ultimate Mod support**  
 **(dd/mm/yyyy)**  
 **(27/01/2026)**  
