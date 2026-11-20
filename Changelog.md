@@ -2,6 +2,36 @@
 ### Changelog/Patch Notes:  
 *Note: Changes to Tier 1 and 2 Cars only apply to the 'MW Style Upgrades' installation options, or to Ultimate Mod installation.
 
+**v1.7.03 - Hotfix for Player Cop Corvette induction.**  
+**(dd/mm/yyyy)**  
+**(20/11/2026)**  
+
+# Scripts and installation
+
+### MW Style Upgrades
+Fixed an issue where the Player Police Corvette (Normal + Undercover) was using the incorrect Pro Package induction node.
+
+---
+**v1.7.02 - Hotfix for CLK-500 Engine Audio.**  
+**(dd/mm/yyyy)**  
+**(10/11/2026)**  
+
+# Scripts and installation
+
+### MW Style Upgrades
+Fixed an issue where the CLK-500 would have no engine sound when Pro Package Engine is applied.
+
+---
+**v1.7.01 - Hotfix for player cop gto induction.**  
+**(dd/mm/yyyy)**  
+**(07/10/2026)**  
+
+# Scripts and installation
+
+### MW Style Upgrades
+Fixed an issue where the player cop gto was using an incorrect induction node for its street package induction.
+
+---
 **v1.7 - Lots of changes, Engine sounds from MW, Engine + Caraudio mini-overhaul.**  
 **(dd/mm/yyyy)**  
 **(02/09/2026)**  
@@ -13,7 +43,7 @@ You now have the option to add cop car frontend logos during the Binary/Binarius
 These were *finally* copied over from the bonus cars mod, so you no longer have to download and install only the binary part of an entirely separate mod.
 
 Added several engine sounds from NFSMW 2005, and a few sounds from Prostreet.
-Not all sounds are listed, only the notable ones.
+* Not all sounds are listed, only the notable ones.
 
 NFSMW Sounds:
 - corvette_z06_v2 (CarID 74) (NFSMW Corvette C6 Sound)
